@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(80, 80, 80);
+    background: rgb(221, 221, 221);
+    font-size: 30px;
+}
+table{
+    width: 80%;
+    border-spacing: 0;
+    margin: 0 auto;
+}
+td, th{
+    padding: 10px;
+}
+
+td{
+    height: 40px;
+
+}
+input{
+    caret-color: black;
+}
+input[type=text]{
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(180, 180, 180);
+}
+input[type=text]:focus{
+    outline: none;
+    border-bottom: 1px solid rgb(94, 94, 94);
+}
+[name=author] {
+    color: rgba(177, 26, 26, 0.596);
+}
+[name=pages]{
+    color: rgba(71, 71, 190, 0.651);
+}
+[type=button]{
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid grey;
+}
+.remove{
+    background: rgb(177, 26, 26);
+    border-radius: 10px;
+}
+.read{
+    background: rgb(65, 65, 65);
+    border-radius: 10px;
+}
+.not-read{
+    background: cornsilk;
+}
+h1{
+    text-align: center; color: 
+    lightgoldenrodyellow; 
+    margin-top: 40px; 
+    opacity: 0.3;
+    font-size: 80px;
+    border-top: 1px solid grey;
+}
